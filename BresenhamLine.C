@@ -1,3 +1,5 @@
+// Write a program to implement Bresenhams Line drawing algorithm.
+
 #include<stdio.h>
 #include<conio.h>
 #include<dos.h>
