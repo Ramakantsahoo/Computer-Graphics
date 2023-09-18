@@ -1,3 +1,5 @@
+// Write a program to draw a circle using midpoint circle drawing algorithm.
+
 #include<stdio.h>
 #include<dos.h>
 #include<graphics.h>
