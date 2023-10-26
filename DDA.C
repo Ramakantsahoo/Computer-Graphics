@@ -18,8 +18,8 @@ void DDA(int x1,int y1, int x2, int y2){
 	int dx = abs(x2-x1);
 	int dy = abs(y2-y1);
 	int steps;
-	float xinc = (float)dx / (float)steps;
-	float yinc = (float)dy / (float)steps;
+	float xinc;
+	float yinc;
 	float x = x1;
 	float y = y1;
 	int i;
@@ -27,6 +27,9 @@ void DDA(int x1,int y1, int x2, int y2){
 		steps = dx;
 	else
 		steps = dy;
+
+	xinc = (float)dx / (float)steps;
+	yinc = (float)dy / (float)steps;
 
 	for(i = 0;i < steps;i++){
 		putpixel(round(x),round(y), RED);
