@@ -1,3 +1,5 @@
+// Write a program in c using computer graphics to draw a line using Digital differential analyzer (DDA) algorithm.
+
 #include<stdio.h>
 #include<conio.h>
 #include<dos.h>
