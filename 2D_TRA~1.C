@@ -1,3 +1,5 @@
+// Write a program to implement 2D transformation using computer graphics in c.
+
 #include <graphics.h>
 #include <stdlib.h>
 #include <stdio.h>
