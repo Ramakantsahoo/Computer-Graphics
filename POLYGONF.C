@@ -1,3 +1,6 @@
+// Implement polygon filling algorithm.
+// Here we are implemented 8 connected polygon filling.
+
 #include <stdio.h>
 #include <conio.h>
 #include <graphics.h>
