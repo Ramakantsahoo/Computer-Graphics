@@ -1,3 +1,5 @@
+// Write a program in c using computer graphics to implement line clipping operation
+
 #include <stdio.h>
 #include <conio.h>
 #include <graphics.h>
