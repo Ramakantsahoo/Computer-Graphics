@@ -70,7 +70,7 @@ void main()
 
 		printf("About y axis: \n");
 	       //	bar3d(midx+100, midy-20, midx+60, midy-90, 20, 5);
-		bar3d(midx + x1, midy - 20, midx + y1, midy - 90, 20, 5);
+		bar3d(midx + x1, midy - 20, midx + x2, midy - 90, 20, 5);
 		axis();
 	default:
 		printf("Enter currect choices\n");
