@@ -50,15 +50,15 @@ void main()
 	printf("\n Enter the angle of rotation: ");
 	scanf("%d", &r);
 	t = 3.14 * r / 180;
-	nx1 = xc + x1 * cos(t) - yc + y1 * sin(t);
-	ny1 = xc + x1 * sin(t) + yc + y1 * cos(t);
-	nx2 = xc + x2 * cos(t) - yc + y2 * sin(t);
-	ny2 = xc + x2 * sin(t) + yc + y2 * cos(t);
-	nx3 = xc + x3 * cos(t) - yc + y3 * sin(t);
-	ny3 = xc + x3 * sin(t) + yc + y3 * cos(t);
-	line(nx1, ny1, nx2, ny2);
-	line(nx2, ny2, nx3, ny3);
-	line(nx3, ny3, nx1, ny1);
+	nx1 = x1 * cos(t) - y1 * sin(t);
+	ny1 = x1 * sin(t) + y1 * cos(t);
+	nx2 = x2 * cos(t) - y2 * sin(t);
+	ny2 = x2 * sin(t) + y2 * cos(t);
+	nx3 = x3 * cos(t) - y3 * sin(t);
+	ny3 = x3 * sin(t) + y3 * cos(t);
+	line(xc + nx1, yc + ny1, xc + nx2, yc + ny2);
+	line(xc + nx2, yc + ny2, xc + nx3, yc + ny3);
+	line(xc + nx3, yc + ny3, xc + nx1, yc + ny1);
 	getch();
 	break;
     case 3:
