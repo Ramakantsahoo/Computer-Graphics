@@ -9,7 +9,7 @@
 int round(float x){
 	float f = floor(x);
 	float c = ceil(x);
-	if(c - x >= 0.5)
+	if(c - x <= 0.5)
 		return c;
 	return f;
 }
